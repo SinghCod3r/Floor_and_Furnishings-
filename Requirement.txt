@@ -1,0 +1,8 @@
+1. need costomer List and data from F&F database for all customer List.
+2. need Fabric Data from FandF database and fabric live stock 
+3. need dat of qutastion field like price of fabric, stiching rate, etc.
+4. need a post api from fandf to create a Purchase order to vendor.
+5. neeed api to create a new Enquiry.
+6. need payment Api to add Payments to customer outstandings
+7. need online payment sytem apis for online payment.
+8. need pricing for every extra expance that we have to add when customer added when installer is there. like scrrow road pits and etc

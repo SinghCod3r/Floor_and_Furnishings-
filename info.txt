@@ -1,0 +1,48 @@
+id	:	6
+rod_required	:	Yes           //done
+rod_selection	:	Double   //done
+primary_rod_length	:	160 //done
+extra_bracket_required	:	Yes //done
+extra_bracket_type	:	Double //done
+extra_bracket_quantity	:	3 //done
+extra_bracket_support_required	:	null //done
+extra_bracket_support_quantity	:	null//done
+extra_ring_required	:	Yes//done
+extra_ring_quantity	:	5//done
+rod_tie_knobs_required	:	null//done
+rod_tie_knobs_image	:	null//done
+rod_number_of_tie_knobs_pair	:	null//done
+finial_quantity	:	2//done
+end_cap_required	:	Yes//done
+end_cap_quantity	:	1//done
+end_cap_wall_support_required	:	Yes //Done
+end_cap_wall_support_quantity	:	1 //Done
+curatin_stick_required	:	Yes  //done
+number_of_curatin_stick_pair	:	1  //done
+primary_rod_image	:	null //done
+secondary_rod_length	:	160  //dome
+secondary_rod_image	:	null
+createdAt	:	2022-08-28T06:40:42.000Z
+updatedAt	:	2022-08-28T06:53:15.000Z
+rod_tieknobId	:	2
+finialId	:	2
+primary_rod_type	:	1
+secondary_rod_type	:	null
+roomId	:	6
+	tieknob		{4}
+id	:	2
+type	:	tie Knob2
+createdAt	:	2022-05-26T07:46:42.000Z
+updatedAt	:	2022-05-26T07:46:42.000Z
+	finial		{4}
+id	:	2
+type	:	finial-2
+createdAt	:	2022-07-01T13:38:27.000Z
+updatedAt	:	2022-07-01T13:38:27.000Z
+	primaryRod		{5}
+id	:	1
+type	:	copper
+image	:	https://fapi.zidni.academy/assets/hardware-details/wood.jpg
+createdAt	:	2022-05-26T07:45:40.000Z
+updatedAt	:	2022-05-26T07:45:40.000Z
+secondaryRod	:	null
