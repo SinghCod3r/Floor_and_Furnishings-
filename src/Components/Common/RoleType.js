@@ -1,0 +1,9 @@
+export const superAdmin = "super-admin";
+export const OutletManager = "outlet";
+export const DispatchTeam = "dispatch-team";
+export const StitchingStoreManager = "Stitching-store-manager";
+export const SalesPerson = "sales-person";
+export const Measurer = "measurer";
+export const Tailor = "Tailor";
+export const QC = "qc";
+export const Installer = "installer";

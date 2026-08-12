@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Floor and Furniture" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    /> -->
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest"  
+     href="%PUBLIC_URL%/manifest.json" 
+     />
+    <!----- favicon ----->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="%PUBLIC_URL%/images/favicon.png"
+    />
+
+    <!----- All Css links Start ----->
+
+    <!----- functional design ----->
+    <link
+      href="%PUBLIC_URL%/vendor/datatables/css/jquery.dataTables.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="%PUBLIC_URL%/vendor/jquery-nice-select/css/nice-select.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="%PUBLIC_URL%/vendor/owl-carousel/owl.carousel.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="%PUBLIC_URL%/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css"
+      rel="stylesheet"
+    />
+
+    <!----- Datatable ----->
+    <link
+      href="%PUBLIC_URL%/vendor/datatables/css/jquery.dataTables.min.css"
+      rel="stylesheet"
+    />
+
+    <!----- main css ----->
+    <link href="%PUBLIC_URL%/css/style.css" rel="stylesheet" />
+
+    <title>Floor And Furniture Web Admin</title>
+  </head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .Estimate tr,
+    .Estimate td,
+    .Estimate th {
+      border-width: 1px !important;
+      border-color: black !important;
+      text-align: center;
+    }
+
+    .desktop_hide,
+    .desktop_hide table {
+      mso-hide: all;
+      display: none;
+      max-height: 0px;
+      overflow: hidden;
+    }
+
+    @media (max-width: 720px) {
+      .desktop_hide table.icons-inner {
+        display: inline-block !important;
+      }
+
+      .icons-inner {
+        text-align: center;
+      }
+
+      .icons-inner td {
+        margin: 0 auto;
+      }
+    }
+  </style>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!----- All javascript links Start ----->
+    <script src="%PUBLIC_URL%/vendor/global/global.min.js"></script>
+
+    <script src="%PUBLIC_URL%/vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+
+    <script src="%PUBLIC_URL%/vendor/apexchart/apexchart.js"></script>
+
+    <script src="%PUBLIC_URL%/js/dashboard/dashboard-1.js"></script>
+
+    <script src="%PUBLIC_URL%/vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="%PUBLIC_URL%/vendor/bootstrap-datetimepicker/js/moment.js"></script>
+    <script src="%PUBLIC_URL%/vendor/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+    <script src="%PUBLIC_URL%/js/custom.min.js"></script>
+    <script src="%PUBLIC_URL%/js/dlabnav-init.js"></script>
+    <script src="%PUBLIC_URL%/js/demo.js"></script>
+    <script src="%PUBLIC_URL%/vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="%PUBLIC_URL%/js/plugins-init/datatables.init.js"></script>
+  </body>
+</html>
